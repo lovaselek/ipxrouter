@@ -22,3 +22,4 @@ The client prepends IPX source and destination node number and socket number bef
 
 For each incoming packet, the server records the correspondence of source node+socket number and UDP address. Then, for unicast packets, the server forwards the packet to UDP address corresponding to the destination node+socket number; for broadcast packets, the server forwards the packet to all clients on that socket number.
 
+.
